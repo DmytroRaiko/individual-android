@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/layout_activity_voucher.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/layout/activity_voucher.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "it_school.sumdu.edu.individualwork.app-merged_res-29:/layout_voucher_item.xml.flat",
+        "source": "it_school.sumdu.edu.individualwork.app-main-31:/layout/voucher_item.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/layout_activity_add_voucher.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/layout/activity_add_voucher.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/drawable_ic_show.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/drawable/ic_show.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/drawable_ic_star.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/drawable/ic_star.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/layout_activity_vouchers.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/layout/activity_vouchers.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/drawable_layout_border_bottom.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/drawable/layout_border_bottom.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/layout_app_bar_search.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/layout/app_bar_search.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/drawable_ic_back_arrow.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/drawable/ic_back_arrow.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/layout_voucher_item.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/layout/voucher_item.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/layout_country_item.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/layout/country_item.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/layout_app_bar.xml.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/layout/app_bar.xml"
+    },
+    {
+        "merged": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/dmitryraiko/.gradle/daemon/7.5/it_school.sumdu.edu.individualwork.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    }
+]

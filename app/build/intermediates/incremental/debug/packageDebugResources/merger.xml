@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res"/><source path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/build/generated/res/rs/debug"/><source path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res"><file name="ic_launcher" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/mipmap-mdpi/ic_launcher.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" qualifiers="v24" type="drawable"/><file name="ic_launcher" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/mipmap-hdpi/ic_launcher.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_background" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/drawable/ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="activity_main" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/layout/activity_main.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/values/colors.xml" qualifiers=""><color name="purple_200">#DEC8FA</color><color name="purple_500">#B281F8</color><color name="purple_700">#2562FA</color><color name="teal_200">#3FD3C4</color><color name="teal_700">#016D80</color><color name="black">#FF000000</color><color name="white">#FFFFFFFF</color></file><file path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/values/themes.xml" qualifiers=""><style name="Theme.IndividualWork" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style><style name="Theme.IndividualWork.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style><style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/><style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/></file><file path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">individualWork</string><string-array name="countryNames">
+        <item>Andorra</item>
+        <item>United Arab Emirates</item>
+        <item>Afghanistan</item>
+        <item>Antigua &amp;amp; Barbuda</item>
+        <item>Anguilla</item>
+        <item>Albania</item>
+        <item>Armenia</item>
+        <item>Angola</item>
+        <item>Antarctica</item>
+        <item>Argentina</item>
+        <item>American Samoa</item>
+        <item>Austria</item>
+        <item>Australia</item>
+        <item>Aruba</item>
+        <item>Åland Islands</item>
+        <item>Azerbaijan</item>
+        <item>Bosnia &amp; Herzegovina</item>
+        <item>Barbados</item>
+        <item>Bangladesh</item>
+        <item>Belgium</item>
+        <item>Burkina Faso</item>
+        <item>Bulgaria</item>
+        <item>Bahrain</item>
+        <item>Burundi</item>
+        <item>Benin</item>
+        <item>St. Barthélemy</item>
+        <item>Bermuda</item>
+        <item>Brunei</item>
+        <item>Bolivia</item>
+        <item>Caribbean Netherlands</item>
+        <item>Brazil</item>
+        <item>Bahamas</item>
+        <item>Bhutan</item>
+        <item>Bouvet Island</item>
+        <item>Botswana</item>
+        <item>Belarus</item>
+        <item>Belize</item>
+        <item>Canada</item>
+        <item>Cocos (Keeling) Islands</item>
+        <item>Congo - Kinshasa</item>
+        <item>Central African Republic</item>
+        <item>Congo - Brazzaville</item>
+        <item>Switzerland</item>
+        <item>Côte d’Ivoire</item>
+        <item>Cook Islands</item>
+        <item>Chile</item>
+        <item>Cameroon</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Cape Verde</item>
+        <item>Curaçao</item>
+        <item>Christmas Island</item>
+        <item>Cyprus</item>
+        <item>Czechia</item>
+        <item>Germany</item>
+        <item>Djibouti</item>
+        <item>Denmark</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>Algeria</item>
+        <item>Ecuador</item>
+        <item>Estonia</item>
+        <item>Egypt</item>
+        <item>Western Sahara</item>
+        <item>Eritrea</item>
+        <item>Spain</item>
+        <item>Ethiopia</item>
+        <item>Finland</item>
+        <item>Fiji</item>
+        <item>Falkland Islands (Islas Malvinas)</item>
+        <item>Micronesia</item>
+        <item>Faroe Islands</item>
+        <item>France</item>
+        <item>Gabon</item>
+        <item>United Kingdom</item>
+        <item>Grenada</item>
+        <item>Georgia</item>
+        <item>French Guiana</item>
+        <item>Guernsey</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greenland</item>
+        <item>Gambia</item>
+        <item>Guinea</item>
+        <item>Guadeloupe</item>
+        <item>Equatorial Guinea</item>
+        <item>Greece</item>
+        <item>South Georgia &amp; South Sandwich Islands</item>
+        <item>Guatemala</item>
+        <item>Guam</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Hong Kong</item>
+        <item>Heard &amp;amp; McDonald Islands</item>
+        <item>Honduras</item>
+        <item>Croatia</item>
+        <item>Haiti</item>
+        <item>Hungary</item>
+        <item>Indonesia</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Isle of Man</item>
+        <item>India</item>
+        <item>British Indian Ocean Territory</item>
+        <item>Iraq</item>
+        <item>Iran</item>
+        <item>Iceland</item>
+        <item>Italy</item>
+        <item>Jersey</item>
+        <item>Jamaica</item>
+        <item>Jordan</item>
+        <item>Japan</item>
+        <item>Kenya</item>
+        <item>Kyrgyzstan</item>
+        <item>Cambodia</item>
+        <item>Kiribati</item>
+        <item>Comoros</item>
+        <item>St. Kitts &amp; Nevis</item>
+        <item>North Korea</item>
+        <item>South Korea</item>
+        <item>Kuwait</item>
+        <item>Cayman Islands</item>
+        <item>Kazakhstan</item>
+        <item>Laos</item>
+        <item>Lebanon</item>
+        <item>St. Lucia</item>
+        <item>Liechtenstein</item>
+        <item>Sri Lanka</item>
+        <item>Liberia</item>
+        <item>Lesotho</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Latvia</item>
+        <item>Libya</item>
+        <item>Morocco</item>
+        <item>Monaco</item>
+        <item>Moldova</item>
+        <item>Montenegro</item>
+        <item>St. Martin</item>
+        <item>Madagascar</item>
+        <item>Marshall Islands</item>
+        <item>North Macedonia</item>
+        <item>Mali</item>
+        <item>Myanmar (Burma)</item>
+        <item>Mongolia</item>
+        <item>Macao</item>
+        <item>Northern Mariana Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Montserrat</item>
+        <item>Malta</item>
+        <item>Mauritius</item>
+        <item>Maldives</item>
+        <item>Malawi</item>
+        <item>Mexico</item>
+        <item>Malaysia</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>New Caledonia</item>
+        <item>Niger</item>
+        <item>Norfolk Island</item>
+        <item>Nigeria</item>
+        <item>Nicaragua</item>
+        <item>Netherlands</item>
+        <item>Norway</item>
+        <item>Nepal</item>
+        <item>Nauru</item>
+        <item>Niue</item>
+        <item>New Zealand</item>
+        <item>Oman</item>
+        <item>Panama</item>
+        <item>Peru</item>
+        <item>French Polynesia</item>
+        <item>Papua New Guinea</item>
+        <item>Philippines</item>
+        <item>Pakistan</item>
+        <item>Poland</item>
+        <item>St. Pierre &amp; Miquelon</item>
+        <item>Pitcairn Islands</item>
+        <item>Puerto Rico</item>
+        <item>Palestine</item>
+        <item>Portugal</item>
+        <item>Palau</item>
+        <item>Paraguay</item>
+        <item>Qatar</item>
+        <item>Réunion</item>
+        <item>Romania</item>
+        <item>Serbia</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Saudi Arabia</item>
+        <item>Solomon Islands</item>
+        <item>Seychelles</item>
+        <item>Sudan</item>
+        <item>Sweden</item>
+        <item>Singapore</item>
+        <item>St. Helena</item>
+        <item>Slovenia</item>
+        <item>Svalbard &amp; Jan Mayen</item>
+        <item>Slovakia</item>
+        <item>Sierra Leone</item>
+        <item>San Marino</item>
+        <item>Senegal</item>
+        <item>Somalia</item>
+        <item>Suriname</item>
+        <item>South Sudan</item>
+        <item>São Tomé &amp; Príncipe</item>
+        <item>El Salvador</item>
+        <item>Sint Maarten</item>
+        <item>Syria</item>
+        <item>Eswatini</item>
+        <item>Turks &amp; Caicos Islands</item>
+        <item>Chad</item>
+        <item>French Southern Territories</item>
+        <item>Togo</item>
+        <item>Thailand</item>
+        <item>Tajikistan</item>
+        <item>Tokelau</item>
+        <item>Timor-Leste</item>
+        <item>Turkmenistan</item>
+        <item>Tunisia</item>
+        <item>Tonga</item>
+        <item>Turkey</item>
+        <item>Trinidad &amp; Tobago</item>
+        <item>Tuvalu</item>
+        <item>Taiwan</item>
+        <item>Tanzania</item>
+        <item>Ukraine</item>
+        <item>Uganda</item>
+        <item>U.S. Outlying Islands</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vatican City</item>
+        <item>St. Vincent &amp; Grenadines</item>
+        <item>Venezuela</item>
+        <item>British Virgin Islands</item>
+        <item>U.S. Virgin Islands</item>
+        <item>Vietnam</item>
+        <item>Vanuatu</item>
+        <item>Wallis &amp; Futuna</item>
+        <item>Samoa</item>
+        <item>Yemen</item>
+        <item>Mayotte</item>
+        <item>South Africa</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array><string name="loaderShort">###</string><string name="loaderLong">######</string><string name="delete_entity">Delete entity</string><string name="get_a_consultation">Get a consultation</string><string name="add_voucher">Add voucher</string><string name="star">Star</string></file><file name="backup_rules" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/xml/backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/xml/data_extraction_rules.xml" qualifiers="" type="xml"/><file name="ic_launcher" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml" qualifiers="anydpi-v33" type="mipmap"/><file name="ic_launcher" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_back_arrow" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/drawable/ic_back_arrow.xml" qualifiers="" type="drawable"/><file name="ic_show" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/drawable/ic_show.xml" qualifiers="" type="drawable"/><file name="country_item" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/layout/country_item.xml" qualifiers="" type="layout"/><file path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/values/integers.xml" qualifiers=""><integer name="grid_column_count">1</integer></file><file path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/values-land/integers.xml" qualifiers="land"><integer name="grid_column_count">2</integer></file><file path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/values-large/integers.xml" qualifiers="large-v4"><integer name="grid_column_count">2</integer></file><file path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/values-large-land/integers.xml" qualifiers="large-land-v4"><integer name="grid_column_count">3</integer></file><file name="ic_star" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/drawable/ic_star.xml" qualifiers="" type="drawable"/><file name="layout_border_bottom" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/drawable/layout_border_bottom.xml" qualifiers="" type="drawable"/><file name="activity_vouchers" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/layout/activity_vouchers.xml" qualifiers="" type="layout"/><file name="voucher_item" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/layout/voucher_item.xml" qualifiers="" type="layout"/><file name="activity_voucher" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/layout/activity_voucher.xml" qualifiers="" type="layout"/><file name="app_bar" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/layout/app_bar.xml" qualifiers="" type="layout"/><file name="activity_add_voucher" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/layout/activity_add_voucher.xml" qualifiers="" type="layout"/><file name="app_bar_search" path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/res/layout/app_bar_search.xml" qualifiers="" type="layout"/></source><source path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/build/generated/res/rs/debug"/><source path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"/><mergedItems/></merger>

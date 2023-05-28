@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="it_school.sumdu.edu.individualwork"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /Users/dmitryraiko/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="it_school.sumdu.edu.individualwork.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /Users/dmitryraiko/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /Users/dmitryraiko/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="it_school.sumdu.edu.individualwork.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /Users/dmitryraiko/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /Users/dmitryraiko/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:5:5-36:19
+18        android:allowBackup="true"
+18-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /Users/dmitryraiko/.gradle/caches/transforms-3/48da4d468f697fb0fb5d56e4c7c822b9/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:10:9-41
+26        android:supportsRtl="true"
+26-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:11:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.IndividualWork.NoActionBar" >
+28-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:12:9-64
+29        <activity
+29-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:15:9-17:58
+30            android:name="it_school.sumdu.edu.individualwork.VouchersActivity"
+30-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:16:13-45
+31            android:parentActivityName="it_school.sumdu.edu.individualwork.MainActivity" />
+31-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:17:13-55
+32        <activity
+32-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:19:9-21:58
+33            android:name="it_school.sumdu.edu.individualwork.AddVoucherActivity"
+33-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:20:13-47
+34            android:parentActivityName="it_school.sumdu.edu.individualwork.MainActivity" />
+34-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:21:13-55
+35        <activity
+35-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:23:9-25:58
+36            android:name="it_school.sumdu.edu.individualwork.VoucherActivity"
+36-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:24:13-44
+37            android:parentActivityName="it_school.sumdu.edu.individualwork.MainActivity" />
+37-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:25:13-55
+38        <activity
+38-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:27:9-35:20
+39            android:name="it_school.sumdu.edu.individualwork.MainActivity"
+39-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:28:13-41
+40            android:exported="true" >
+40-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:29:13-36
+41            <intent-filter>
+41-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:30:13-34:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:31:17-69
+42-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:31:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:33:17-77
+44-->/Users/dmitryraiko/AndroidStudioProjects/individualWork/app/src/main/AndroidManifest.xml:33:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <service
+48-->[androidx.room:room-runtime:2.1.0-beta01] /Users/dmitryraiko/.gradle/caches/transforms-3/f09b46037d11c6ba4b146ab1f4ae530b/transformed/room-runtime-2.1.0-beta01/AndroidManifest.xml:23:9-25:40
+49            android:name="androidx.room.MultiInstanceInvalidationService"
+49-->[androidx.room:room-runtime:2.1.0-beta01] /Users/dmitryraiko/.gradle/caches/transforms-3/f09b46037d11c6ba4b146ab1f4ae530b/transformed/room-runtime-2.1.0-beta01/AndroidManifest.xml:24:13-74
+50            android:exported="false" />
+50-->[androidx.room:room-runtime:2.1.0-beta01] /Users/dmitryraiko/.gradle/caches/transforms-3/f09b46037d11c6ba4b146ab1f4ae530b/transformed/room-runtime-2.1.0-beta01/AndroidManifest.xml:25:13-37
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] /Users/dmitryraiko/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] /Users/dmitryraiko/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+54            android:authorities="it_school.sumdu.edu.individualwork.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] /Users/dmitryraiko/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] /Users/dmitryraiko/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] /Users/dmitryraiko/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] /Users/dmitryraiko/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/dmitryraiko/.gradle/caches/transforms-3/b534eca45ae0368be30899d5007a440e/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/dmitryraiko/.gradle/caches/transforms-3/b0761d22b5c86c7f873b7a426ffce717/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/dmitryraiko/.gradle/caches/transforms-3/b0761d22b5c86c7f873b7a426ffce717/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/dmitryraiko/.gradle/caches/transforms-3/b0761d22b5c86c7f873b7a426ffce717/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+62        </provider>
+63    </application>
+64
+65</manifest>

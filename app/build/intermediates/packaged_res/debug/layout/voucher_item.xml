@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="#FDFDFD"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_border_bottom"
+        android:text="Hotel Hills Sarajevo Congress &amp; Thermal Spa Resort "
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/countryItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Ukraine, Myrgorod"
+        android:textColor="#6C6C6C"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleItem" />
+
+    <TextView
+        android:id="@+id/descriptionItem"
+        android:layout_width="251dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="Espresso is offering accommodation in Myrhorod. The hotel offers both free. Espresso is offering accommodation in Myrhorod. The hotel offers both free"
+        android:textColor="#A5A5A5"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="@+id/titleItem"
+        app:layout_constraintTop_toBottomOf="@+id/countryItem" />
+
+    <TextView
+        android:id="@+id/priceItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="4290"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/descriptionItem"
+        app:layout_constraintEnd_toEndOf="@+id/ratingItem"
+        app:layout_constraintTop_toBottomOf="@+id/ratingItem" />
+
+    <TextView
+        android:id="@+id/priceItem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:text="UAH"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/priceItem"
+        app:layout_constraintEnd_toStartOf="@+id/priceItem" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/ic_star"
+        app:layout_constraintBottom_toBottomOf="@+id/ratingItem"
+        app:layout_constraintEnd_toStartOf="@+id/ratingItem"
+        app:layout_constraintTop_toTopOf="@+id/ratingItem" />
+
+    <TextView
+        android:id="@+id/ratingItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="8.9"
+        android:textSize="19sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/countryItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/countryItem" />
+
+    <TextView
+        android:id="@+id/datesItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/priceItem" />
+</androidx.constraintlayout.widget.ConstraintLayout>
