@@ -3,7 +3,6 @@ package it_school.sumdu.edu.individualwork;
 import androidx.appcompat.app.AlertDialog;
 
 import android.annotation.SuppressLint;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -45,18 +44,13 @@ public class VoucherActivity extends AppCompatActivity {
         title.setText(voucher.getTitle());
         description.setText(voucher.getDescription());
         country.setText(countryStr);
-        price.setText("UAH " + Double.toString(voucher.getPrice()));
+        price.setText("UAH " + voucher.getPrice());
         rating.setText(Double.toString(voucher.getRating()));
         dates.setText(voucher.getDateStart() + " - " + voucher.getDateEnd());
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onBackPressed();
-            }
-        });
+        toolbar.setNavigationOnClickListener(v -> onBackPressed());
     }
 
     public void onDelete(View view) {
@@ -67,26 +61,13 @@ public class VoucherActivity extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Confirm the action!")
                 .setMessage("Are you sure you want to delete?")
-                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface d, int w) {
-                        deleteItem();
-                    }
-                })
-                .setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface d, int w) {}
-                })
+                .setPositiveButton("Yes", (d, w) -> deleteItem())
+                .setNegativeButton("No", (d, w) -> {})
                 .show();
     }
 
     private void deleteItem() {
-        AsyncTask.execute(new Runnable() {
-            @Override
-            public void run() {
-                vm.delete(voucher);
-            }
-        });
+        AsyncTask.execute(() -> vm.delete(voucher));
         Toast.makeText(this, "Record deleted!", Toast.LENGTH_SHORT).show();
 
         Intent intent = new Intent(this, MainActivity.class);

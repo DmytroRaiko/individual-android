@@ -260,7 +260,7 @@
     <color name="white">#FFFFFFFF</color>
     <integer name="grid_column_count">1</integer>
     <string name="add_voucher">Add voucher</string>
-    <string name="app_name">individualWork</string>
+    <string name="app_name">Travel&amp;Enjoy</string>
     <string name="delete_entity">Delete entity</string>
     <string name="get_a_consultation">Get a consultation</string>
     <string name="loaderLong">######</string>

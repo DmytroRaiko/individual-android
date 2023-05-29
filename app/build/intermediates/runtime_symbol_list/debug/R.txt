@@ -3232,6 +3232,8 @@ int id grouping 0x7f0800cc
 int id groups 0x7f0800cd
 int id guideline 0x7f080209
 int id guideline2 0x7f08020a
+int id guideline4 0x7f080214
+int id guideline5 0x7f080215
 int id header_title 0x7f0800ce
 int id hideable 0x7f0800cf
 int id home 0x7f0800d0

@@ -18,6 +18,7 @@ import androidx.lifecycle.ViewModelProviders;
 
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Objects;
 
 public class AddVoucherActivity extends AppCompatActivity {
     int BUTTON_START_ACTIVE = 1, BUTTON_END_ACTIVE = 2;
@@ -63,8 +64,7 @@ public class AddVoucherActivity extends AppCompatActivity {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                String selectedCountry = parent.getItemAtPosition(position).toString();
-                countryT = selectedCountry;
+                countryT = parent.getItemAtPosition(position).toString();
             }
 
             @Override
@@ -77,9 +77,18 @@ public class AddVoucherActivity extends AppCompatActivity {
     public void onAddClick(View view) {
         titleT = title.getText().toString().trim();
         descriptionT = description.getText().toString().trim();
-        cityT = description.getText().toString().trim();
-        priceN = Double.parseDouble(price.getText().toString().trim());
-        ratingN = Double.parseDouble(rating.getText().toString().trim());
+        cityT = city.getText().toString().trim();
+        if (!price.getText().toString().trim().equals("")) {
+            priceN = Double.parseDouble(price.getText().toString().trim());
+        } else {
+            priceN = null;
+        }
+
+        if (!rating.getText().toString().trim().equals("")) {
+            ratingN = Double.parseDouble(rating.getText().toString().trim());
+        } else {
+            ratingN = null;
+        }
         boolean dateIsValid = validateDate();
 
         if (!dateIsValid) return;
@@ -96,8 +105,7 @@ public class AddVoucherActivity extends AppCompatActivity {
     }
 
     private boolean validateDate() {
-        System.out.println(descriptionT +" " + titleT + " " + countryT + " " + cityT + " " + ratingN);
-        if (descriptionT == null || titleT == null || countryT == null || cityT == null) {
+        if (Objects.equals(descriptionT, "") || Objects.equals(titleT, "") || Objects.equals(countryT, "") || cityT == null || ratingN == null) {
             showToast("Please, enter all fields!");
             return false;
         }
